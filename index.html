@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayan developer_portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: white;
+            font-family: 'poppins', sans-serif;
+            background-color: rgb(20, 3, 38);
+
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(183, 255, 0);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            display: flex;
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: black;
+            font-size: 1rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+            color: black;
+        }
+
+        .right {
+            font-size: 1rem;
+
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px 0;
+            
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+
+
+        }
+
+        .leftsection .btn {
+            padding: 10px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.888);
+            border-radius: 3px;
+            border: 2px solid white;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .leftsection .button{
+            padding: 25px 0;
+        }
+
+        .rightsection img {
+            width: 60%;
+            margin: 35px 0;
+
+        }
+
+        .purple {
+            color: bisque;
+        }
+
+        #element {
+            color: khaki;
+        }
+
+        .secondsection {
+            max-width: 40vw;
+            margin: 10px 0;
+            text-align: center;
+            border: 0;
+            height: 120vh;
+
+
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgba(58, 84, 213, 0.51);
+            margin: 200px 84px;
+            height: 2px;
+
+        }
+
+        .secondsection h2 {
+            font-size: 1.6rem;
+            margin: 30px 0;
+        }
+
+        .secondsection h2 a:hover {
+            text-decoration: none;
+            color: black;
+            background-color: white;
+        }
+
+        .text-grey {
+            color: aquamarine;
+            font-size: 20px;
+
+        }
+
+        .secondsection .box {
+            margin: 90px 70px;
+            width: 65vw;
+            background: white;
+            height: 2px;
+            display: flex;
+
+
+        }
+
+        .secondsection .vertical {
+            height: 113px;
+            background: rgb(255, 255, 255);
+            width: 1.5px;
+            margin: 0 95px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -50px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            width: 150px;
+            top: 80px;
+            left: -25px;
+            font-size: 15px;
+        }
+
+        .vertical-description {
+            position: relative;
+            width: 140px;
+            top: 105px;
+            color: greenyellow;
+            font-size: 9px;
+
+        }
+
+        footer {
+            background-color: rgb(20, 3, 38);
+
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 80px;
+            color: lavenderblush;
+            justify-content: space-evenly;
+
+        }
+
+        .footer ul {
+            list-style: circle;
+        }
+
+        .footer ul li {
+            margin: 0 90px;
+        }
+
+        .footer>div {
+            width: 210px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            padding: 15px 0;
+            color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <b>Raj's Portfolio</b>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/"><b>Home</b></a></li>
+                    <li><a href="/"><b>Qualifications</b></a></li>
+                    <li><a href="/"><b>Projects</b></a></li>
+                    <li><a href="/"><b>Contact</b></a></li>
+                </ul>
+            </div>
+
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi ,this is <span class="purple">Raj </span>
+                <div>And I am a passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download my resume</button>
+                    <button class="btn">visit my github</button>
+
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="raj.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-grey"><b>
+                    <h1>What I have done</h1>
+                </b></span>
+            <h2><u><a href="/" target="blank">Work Experiences</a></u></h2>
+            <div class="box">
+                <div class="vertical">
+                    <img src="css.png" alt="" class="image-top">
+                    <div class="vertical-title">CSS developer (2022-2023)</div>
+                    <div class="vertical-description">
+                        <h4>CSS developers are web professionals whose primary responsibility is to deliver a polished
+                            and styled product to the visitor’s browser.</h4>
+                    </div>
+                </div>
+                <div class="vertical">
+
+                    <img src="js.logo.png" alt="" class="image-top">
+                    <div class="vertical-title">JS developer (2022-2023)</div>
+                    <div class="vertical-description">
+                        <h4>A JavaScript developer is responsible for implementing the front-end logic that defines the
+                            behavior of the visual elements of a web application. A JavaScript developer is also
+                            responsible for connecting this with the services that reside on the back-end. They are
+                            usually supported by back-end web developers, who are responsible for server-side
+                            application logic</h4>
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="react.png" alt="" class="image-top">
+                    <div class="vertical-title">React.js developer (2022-2023)</div>
+                    <div class="vertical-description">
+                        <h4>A React developer uses their programming skills to create JavaScript-based applications for
+                            web or mobile environments. They typically specialize in front-end development, such as
+                            building user interfaces <strong>(UI)</strong>.</h4>
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="python.png" alt="" class="image-top">
+                    <div class="vertical-title">Python developer (2022-2023)</div>
+                    <div class="vertical-description">
+                        <h4>Python web developers usually develop back-end components, connect the application with the
+                            other (often third-party) web services, and support the front-end developers by integrating
+                            their work with the Python application.</h4>
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="html.png" alt="" class="image-top">
+                    <div class="vertical-title">Html developer (2022-2023)</div>
+                    <div class="vertical-description">
+                        <h4>An HTML developer is a professional web designer who uses HTML to create website layouts
+                            based on templates and wireframes. HTML is a semantic language used to control how
+                            information on websites and in web apps is structured and to determine how users navigate
+                            and interact with them. </h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer ">
+            <div class="footer-first">
+                <h3>Raj's first developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Project</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>hobby</li>
+                    <li>interest</li>
+                    <li>Gender</li>
+                    <li>Goal</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>School</li>
+                    <li>College</li>
+                    <li>Friends</li>
+                    <li>Foods</li>
+                </ul>
+            </div>
+            <div class="footer-fifth">
+                <ul>
+                    <li>Achievements</li>
+                    <li>Certificates</li>
+                    <li>Portfolio</li>
+                    <li>Sports</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">Copyright &#169 www.Raj's portfolio.com | All rights reserved"</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<b>Web developer</b>', '<i>Software designer</i>', '<big>Video Editor</big>', '<b>Guitarist</b>'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+
+
+</body>
+
+</html>
